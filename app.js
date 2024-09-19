@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: false}  ));
 app.use(express.static(path.join(_dirname, 'public')));
 
 //base de datos
-const mongo_uri = 'mongodb+srv://fbenjumeau:<db_password>@cluster0.mg59i.mongodb.net'
+const mongo_uri = 'mongodb+srv://fbenjumeau:fabian@cluster0.mg59i.mongodb.net'
 
 app. get('/', (req, res) => {
 
